@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T17:03:21.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.0" etag="Vc3MaHJ7sAOWsN2DaRWO" type="github"><diagram id="hnyBjceNm_G6Duu9VV6d">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-09T20:30:54.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KLPNtOy2unC60kFJ4qF0" version="20.4.0" type="github">
+  <diagram id="hnyBjceNm_G6Duu9VV6d" name="Página-1">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-1" value="Motor " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-4" value="#numCilidradas :int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-6" value="MotorFlex" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-7" value="-numCilindradas :" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-10" value="MotorDiesel " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-11" value=" -NumCilindradas :int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-16" value="Cambio" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-17" value="#numMarchas : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-16">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-20" value="CambioManual " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-21" value="-numMarchas : int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-24" value="CambioAutomatico" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-25" value="-numMarchas : int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-28" value="Pneu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-29" value="#AroPneu :int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-28">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-32" value="Pneu-Aro-13" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-33" value="-AroPneu : int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-32">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-36" value="Pneu-Aro18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-37" value="-AroPneu ; int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-36">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-41" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="30" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-44" value="&amp;lt;interface&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-41">
+          <mxGeometry x="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-46" value="Fabricadecarros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-41">
+          <mxGeometry x="45" y="25" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-47" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +Motor :&amp;nbsp; criarMotos ()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-41">
+          <mxGeometry x="-80" y="80" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-49" value="+Cambio : criar Cambio ()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-41">
+          <mxGeometry x="-5" y="95" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-50" value="+Pneu :criarPneu()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-41">
+          <mxGeometry y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-42" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-45" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-48" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-51" value="CarroPopular" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-53" value="+motor :criarMotor()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-51">
+          <mxGeometry y="25" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-54" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +Cambio : criarCambio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-51">
+          <mxGeometry x="-95" y="40" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-55" value="+Pneu: criarPneu ()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-51">
+          <mxGeometry y="55" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-52" value="CarroLuxo " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-56" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+Motor : criarMotor ()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-52">
+          <mxGeometry x="-55" y="25" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-57" value="+Cambio : criarCambio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-52">
+          <mxGeometry y="45" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3hDI3TI9RLlP1UjIaJ-58" value="+Pneu : criarPneu()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ly3hDI3TI9RLlP1UjIaJ-52">
+          <mxGeometry y="65" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
