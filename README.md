@@ -1,2 +1,2 @@
-# rogue-brasil-
-desenvolvedor de site de jogos 
+PROGRAMANDO EM JAVASCRIPT E TYPE SCRIPT 
+Desenvolvedor de Site 
